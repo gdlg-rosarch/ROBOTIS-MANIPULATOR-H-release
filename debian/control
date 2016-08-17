@@ -1,0 +1,12 @@
+Source: ros-kinetic-manipulator-h-manager
+Section: misc
+Priority: extra
+Maintainer: pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-dynamixel-sdk, ros-kinetic-manipulator-h-base-module, ros-kinetic-robotis-controller, ros-kinetic-robotis-controller-msgs, ros-kinetic-robotis-device, ros-kinetic-robotis-framework-common, ros-kinetic-roscpp
+Homepage: http://wiki.ros.org/ROBOTIS-MANIPULATOR-H
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-manipulator-h-manager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-robotis-controller, ros-kinetic-roscpp
+Description: The manipulator_h_manager package This package describes robot manager to execute manipulator_h_base_module.
