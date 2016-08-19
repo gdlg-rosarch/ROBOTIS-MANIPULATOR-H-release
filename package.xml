@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>manipulator_h</name>
-  <version>0.1.1</version>
+  <version>0.2.0</version>
   <description>ROS packages for the ROBOTIS MANIPULATOR-H (meta package)</description>
   <license>BSD</license>
   <author email="sch@robotis.com">sch</author>
@@ -15,6 +15,7 @@
   <run_depend>manipulator_h_bringup</run_depend>
   <run_depend>manipulator_h_description</run_depend>
   <run_depend>manipulator_h_gazebo</run_depend>
+  <run_depend>manipulator_h_gui</run_depend>
   <run_depend>manipulator_h_kinematics_dynamics</run_depend>
   <run_depend>manipulator_h_manager</run_depend>
   <export><metapackage/></export>
