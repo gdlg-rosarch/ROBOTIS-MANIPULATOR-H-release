@@ -1,0 +1,8 @@
+ros-kinetic-manipulator-h-gui (0.2.0-0wily) wily; urgency=high
+
+  * added manipulator_h_gui package that GUI tool to control ROBOTIS MANIPULATOR-H
+  * Contributors: s-changhyun, pyo
+
+ -- pyo <pyo@robotis.com>  Thu, 18 Aug 2016 15:00:00 -0000
+
+
