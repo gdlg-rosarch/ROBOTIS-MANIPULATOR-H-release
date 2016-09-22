@@ -1,0 +1,24 @@
+ros-kinetic-manipulator-h (0.2.1-0jessie) jessie; urgency=high
+
+  * manipulator_h_gui: package.xml cmake_modules dependency added
+  * manipulator_h_description: for indigo option
+  * Contributors: SCH
+
+ -- pyo <pyo@robotis.com>  Wed, 21 Sep 2016 15:00:00 -0000
+
+ros-kinetic-manipulator-h (0.2.0-0jessie) jessie; urgency=high
+
+  * added manipulator_h_gui package that GUI tool to control ROBOTIS MANIPULATOR-H
+
+ -- pyo <pyo@robotis.com>  Thu, 18 Aug 2016 15:00:00 -0000
+
+ros-kinetic-manipulator-h (0.1.1-0jessie) jessie; urgency=high
+
+  * first public release for Kinetic
+  * applied the semantic versioning
+  * add a meta-package
+  * Contributors: SCH, Pyo
+
+ -- pyo <pyo@robotis.com>  Wed, 10 Aug 2016 15:00:00 -0000
+
+
