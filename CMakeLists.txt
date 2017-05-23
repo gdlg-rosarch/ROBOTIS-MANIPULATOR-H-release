@@ -4,6 +4,8 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(manipulator_h_gazebo)
 
+set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")
+
 ################################################################################
 # Packages
 ################################################################################
@@ -17,11 +19,11 @@ catkin_package()
 ################################################################################
 # Install
 ################################################################################
-install(DIRECTORY launch/
+install(DIRECTORY config/
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
-install(DIRECTORY config/
+install(DIRECTORY launch/
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
